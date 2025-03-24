@@ -1,2 +1,36 @@
 
 /* Your CSS Code here. */
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+/* Table Styling */
+table {
+    width: 50%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* Media Styling */
+img {
+    display: block;
+    margin-top: 10px;
+    max-width: 100%;
+}
+
+video, audio {
+    display: block;
+    margin-top: 10px;
+}
